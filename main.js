@@ -1,3 +1,4 @@
+#!usr/bin/env node
 import inquirer from "inquirer";
 //For HeroPlayer
 class Player {
@@ -70,7 +71,7 @@ async function main() {
                     console.log(`${player.name} health: ${player.health}`);
                     console.log(`${enemy.name} health: ${enemy.health}`);
                     if (player.health <= 0) {
-                        console.log(`You Loss ${player.name}, Try Again`);
+                        console.log(`You Loss ${player.name}, Try Again.`);
                         return;
                     }
                 }
@@ -81,7 +82,7 @@ async function main() {
                     console.log(`${player.name} health: ${player.health}`);
                     console.log(`${enemy.name} health: ${enemy.health}`);
                     if (enemy.health <= 0) {
-                        console.log(`Congratulations ${player.name}, You Won`);
+                        console.log(`Congratulations ${player.name}, You Won!`);
                         return;
                     }
                 }
