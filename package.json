@@ -1,6 +1,6 @@
 {
   "name": "sag07-adventure-game",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It is a Console_based Adventure game in Typescript",
   "main": "index.js",
   "type": "module",
